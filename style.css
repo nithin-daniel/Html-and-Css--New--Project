@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* Header */
+/* Section-1 */
+
+.section-1 {
+  background: url(./images/bg-pattern-intro.svg);
+  background-color: hsl(356, 100%, 66%);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0px 0 0 80px;
+  
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  padding: 83px;
+}
+
+.nav-first {
+  display: flex;
+}
+.nav-first h1 {
+  margin-top: 11px;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.nav-first ul {
+  margin-top: 30px;
+  margin-left: 37px;
+  display: flex;
+}
+
+.nav-link {
+  margin: 20px;
+  color: #fff;
+  opacity: 0.9;
+}
+.nav-last {
+  display: flex;
+  margin-right: 23px;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* Drop Down */
+
+.dropdown {
+  width: 140px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 5px #ccc;
+  display:none ;
+  margin-left: 16rem;
+  margin-top: 1.3rem;
+  border-radius: 13px;
+  height: 8rem;
+  line-height: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+}
+.nav-first ul #dropdown-wrapper :hover.dropdown{
+  display: block;
+}
+
+.nav-last a {
+  padding-top: 26px;
+  padding-right: 28px;
+  color: #fff;
+}
+.nav-last button {
+  padding: 0 43px;
+  margin-top: 12px;
+  border: none;
+  color: hsl(356, 100%, 66%);
+  height: 45px;
+  border-radius: 44px;
+  font-weight: 900;
+  cursor: pointer;
+}
+.nav-last .btn-text:hover {
+  background-color:hsl(355, 100%, 74%);
+  color: white;
+  font-weight: bolder;
+  
+}
+/* .nav-last .btn-text :hover {
+  color: red;
+  font-weight: 900;
+} */
+/* Header End */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.main p {
+  
+    margin-top: -10px;
+  margin-bottom: 45px;
+}
+.main h1 {
+  font-size: 2.5rem;
+  margin: 37px; 
+}
+.btn-main{
+  display: flex;
+  margin-top: 11px;
+    margin-bottom: 95px;  
+}
+.btn-main .btn-1{
+    margin-right: 38px;
+    padding: 12px 22px;
+    border-radius: 37px;
+    border: none;
+    color: hsl(356, 100%, 66%);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.btn-main .btn-2{
+    padding: 12px 22px;
+    border-radius: 37px;
+    border-color: #fff;
+    border: 1px solid;
+    font-weight: 900;
+    color: #fff;
+    background-color:transparent;
+    cursor: pointer;
+}
+.btn-main .btn-1:hover{
+  background-color:hsl(355, 100%, 74%);
+  color: #fff;
+}
+/* Section-1 */
+
+/* Section -2 */
+ .section-2 h1{
+   text-align: center;
+   margin: 3rem;
+   font-size: 27px;
+   font-weight: 400;
+  }
+
+ .content-1{
+  width: 39rem;
+  color:  hsl(208, 49%, 24%);
+ }
+ .content-1 h3{
+  margin: 0 8rem;
+}
+ .content-1 p{
+  margin: 31px 8rem;
+ }
+ .content-2{
+  width: 39rem;
+  color:  hsl(208, 49%, 24%);
+  }
+ .content-2 h3{
+  margin: 0 8rem;
+
+ }
+ .content-2 p{
+  margin: 31px 8rem;
+ }
+ .pic{
+  float: right;
+  width: 40rem;
+  margin-top: -28rem;
+}
+.pic img {
+  height: 40rem;
+}
+/* Section -2 */
+
+/* Section-3 */
+/* .section-3.img-1{
+
+} */
+.section-3{
+  display: flex;
+  width: 100%;
+  height: 30rem;
+  background-color: hsl(208, 49%, 24%);
+  margin-top: 15rem;
+  /* background-image: url(./images/bg-pattern-circles.svg); */
+  
+}
+
+
+.section-3 .text h1{
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  padding-top: 9rem;
+}
+.section-3 .text p{
+  width: 47rem;
+  padding: 41px 151px;
+  color: #fff;
+}
+/* Section-3 */
+
+/* Section-4 */
+.section-4{
+  display: flex;
+  color: hsl(208, 49%, 24%);
+}
+.section-4 .img{
+  width: 49rem;
+  margin-left: -17rem;
+}
+.section-4 .content{
+  margin-top: 16rem;
+  width: 36rem;
+  padding-left: 11rem;
+}
+.section-4 .con-1 h3{
+  padding-bottom: 1.6rem;
+}
+.section-4 .con-1 p{
+  padding-bottom: 3rem;
+}
+.section-4 .con-2 h3{
+  padding-bottom: 1.6rem;
+}
+.section-4 .con-2 p{
+  padding-bottom: 4rem;
+}
+/* Section-4 */
+
+/* Section-5 */
+
+.section-5{
+  background-color :hsl(237, 17%, 21%);
+  color: #fff;
+  display: flex;
+  padding-bottom: 5rem;
+  border-radius: 0 60px 0 0 ;
+}
+.section-5 h1{
+  padding-left: 10rem;
+  padding-top: 3rem;
+}
+.section-5 .total{
+  margin-left: 20rem;
+  margin-top: 4rem;
+
+}
+.section-5 .links-footer{
+  display: flex;
+
+}
+.section-5  .footer{
+  padding-right: 7rem;
+}
+.section-5 .footer ul{
+  line-height: 2rem;
+  font-size: 15px;
+}
+.section-5  .footer li{
+  list-style-type: none;
+}
+.section-5 .footer h3{
+  padding-bottom: 12px;
+  font-weight: 600;
+  font-size: 16px;
+}
